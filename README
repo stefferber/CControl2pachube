@@ -1,0 +1,38 @@
+/*******************************************************************************
+ * Copyright (c) 2009 Stefan Ferber.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *
+ * Contributors:
+ *    Stefan Ferber - initial API and implementation and/or initial documentation
+ *******************************************************************************/
+/*******************************************************************************
+ * Please be aware that you need dedicated and self-made hardware for this SW
+ * - Conrad C-Control
+ * - sensors connect to the C-Control board
+ * - serial port connection to a java machine
+ *******************************************************************************/
+
+
+Documentation C-Control 2 Pachube
+
+Connecting sensors to internet services is not a mirical at all. Here
+is my tiny example. I use the embedded controller C-Control I Version
+1.1 with the starter board from Conrad, three sensors from Conrad, my
+windows PC, and a service from pachube to feed sensor data in the web.
+
+For a quick view on C-Control and the additional Starter Board please
+see the doc folder. Detailed information about pachube is available on
+the community server.
+
+Please download the C-Control2pachube source code. Please take care to
+install the required libraries before you can run the java code:
+
+* eeml available at www.eeml.org
+* processing.core library available at www.processing.org
+* gnu.io serial port access library which is also part of the processing library
+* serial run time rxtxSerial.dll which is also part of the processing library
+
+The sensor feed is not available any more as I turned off the hardware.
